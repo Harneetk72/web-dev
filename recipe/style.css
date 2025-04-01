@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: none;
+}
+#navlist{
+    list-style: none;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+    align-items: center;
+    justify-content: center;
+    gap: 380px;
+  
+}
+a{
+text-decoration: none;
+font-size: 2rem;
+}
+.container{
+    width: 100vh;
+    height: fit-content;
+    overflow: none;
+  }
+.navcontainer{
+    width: 100vw;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    
+   min-height: 70px;
+  
+   
+}  
+nav{
+    width: 100%;
+}
+
+#logo{
+    font-size: 3rem;
+    display: flex;
+    justify-content: left;
+}
+#contact{
+    display: flex;
+   justify-content: right;
+}
+#main-box{
+    display: flex;
+    box-shadow: 0px 0px 30px;
+    height: fit-content;
+    width: 70%;
+    margin: auto;
+    padding: 50px;
+   /* margin-top: 50px; */
+    
+}
+img{
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+    /* transition: all 0.6s 0s; */
+}
+.content-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+   
+}
+.recipe-name{
+    font-size: 3rem;
+}
+.process{
+    font-size: 2rem;
+}
+.ingredient{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.5rem;
+}
+li{
+    font-size: 1.5rem;
+}
+.footer-box{
+    height: 250px;
+    /* background-color: black; */
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: none;
+}
+#footer-content{
+    color: white;
+}
+.img:hover{
+    transform: scale(1.1);
+    transition: all 0.6s 0s;
+}
+.img .overlay{
+ position: absolute;
+ top: 0%;
+ left: 0%;
+ height: 100%;
+ width: 100%;
+ background-color: rgba(213, 211, 211, 0.649);
+}
